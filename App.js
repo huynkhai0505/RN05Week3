@@ -1,20 +1,6 @@
 import React, {Component} from "react";
-import { StyleSheet, View, Text, TextInput } from "react-native";
+import { StyleSheet, View, Text } from "react-native";
 
-//Stateful component
-// export default class App extends Component{
-//   render() {
-//     return (
-//       <View style={{flex:1, justifyContent: 'center', alignItems: 'center', }}>
-//         <Text>Hello React Native 05</Text>
-//       </View>
-//     );
-//   }
-// }
-
-/**
- * Stateless component: function
- */
 export default function App() {
   return (
     <View style={styles.container}>
@@ -78,5 +64,4 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontFamily: 'sans-serif'
   }
-
 });
